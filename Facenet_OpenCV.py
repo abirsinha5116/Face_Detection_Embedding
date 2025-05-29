@@ -6,9 +6,9 @@ import numpy as np
 from deepface import DeepFace
 from scipy.spatial.distance import cosine
 
-REF_FOLDER = r"C:\Users\Dell\Desktop\CV\Zepcruit\Dataset"
+REF_FOLDER = "live_dataset"
 VALID_EXTENSIONS = ('.jpg', '.jpeg', '.png')
-REF_CAPTURE_COUNT = 15       # Number of frames to capture
+REF_CAPTURE_COUNT = 10       # Number of frames to capture
 CAPTURE_TIMEOUT = 30         # Seconds to wait for captures
 ANALYZE_EVERY_N_FRAMES = 1   # Frequency of analysis in main loop
 SIMILARITY_THRESHOLD = 0.65  # Face match threshold
